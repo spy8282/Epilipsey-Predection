@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> website</title>
+    <link rel="stylesheet" href="{% static 'css/home trial.css' %}">
+</head>
+<body style='background-image: url("{% static 'images/hero-bg.webp' %}");'>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="">
+                Epilipecy Disease Prediction <br>System Using Machine Learning 
+            </div>
+            <div class="menu">
+              <a href="">Home</a>
+              <a href="about" >About Us</a>
+                <a href="">Contact</a>
+            </div>
+            <div class="register">
+              <a href="/register" >Register</a>
+                <a href="/login_view">Login</a>
+            </div>
+        </nav>
+        <section  class="h-text">
+            
+            
+            <br>
+            <a href="#">Get Started</a>
+        </section>
+    </header>
+</body>
+</html>
+
